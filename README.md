@@ -1,12 +1,12 @@
 <!-- Banner o emoji inicial -->
-<h1 align="center">¡Hola, soy Kevin Mora! 👋</h1>
+<h1 align="center">¡Hola, soy Kevin! 👋</h1>
 
 ---
 
 ## 🚀 Sobre mí
 - 🔭 Actualmente trabajando en **Señas Conectadas** (traducción de texto a lenguaje de señas).
 - 🌱 Aprendiendo continuamente **Machine Learning**, **Tkinter** y **Procesamiento de Señales**.
-- 📫 Puedes contactarme en: [kevinmora@example.com](mailto:kevinmora@example.com)
+- 📫 Puedes contactarme en: [kevinmora@example.com](mailto:kevin.mora@est.ucacue.edu.ec)
 
 ---
 

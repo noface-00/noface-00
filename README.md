@@ -4,9 +4,9 @@
 ---
 
 ## 🚀 Sobre mí
-- 🔭 Actualmente trabajando en **Señas Conectadas** (traducción de texto a lenguaje de señas).
+- 🔭 Actualmente estudiando en **Ing en Software** (traducción de texto a lenguaje de señas).
 - 🌱 Aprendiendo continuamente **Machine Learning**, **Tkinter** y **Procesamiento de Señales**.
-- 📫 Puedes contactarme en: [kevinmora@example.com](mailto:kevin.mora@est.ucacue.edu.ec)
+- 📫 Puedes contactarme en: [kevin.mora@ucacue.edu.ec](mailto:kevin.mora@est.ucacue.edu.ec)
 
 ---
 

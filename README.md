@@ -1,16 +1,16 @@
-<!-- Banner o emoji inicial -->
-<h1 align="center">¡Hola, soy Kevin! 👋</h1>
+<!-- Banner or initial emoji -->
+<h1 align="center">Hello, I’m Kevin! 👋</h1>
 
 ---
 
-## 🚀 Sobre mí
-- 🔭 Actualmente estudiando en **Ing en Software** (traducción de texto a lenguaje de señas).
-- 🌱 Aprendiendo continuamente **Machine Learning**, **Tkinter** y **Procesamiento de Señales**.
-- 📫 Puedes contactarme en: [kevin.mora@ucacue.edu.ec](mailto:kevin.mora@est.ucacue.edu.ec)
+## 🚀 About Me
+- 🔭 Currently studying **Software Engineering**.
+- 🌱 Continuously learning **Machine Learning**, **Tkinter**, and **Signal Processing**.
+- 📫 You can reach me at: [kevin.mora@ucacue.edu.ec](mailto:kevin.mora@est.ucacue.edu.ec) and [morakevin269@gmail.com](morakevin269@gmail.com)
 
 ---
 
-## 🛠️ Tecnologías & Herramientas
+## 🛠️ Technologies & Tools
 <table>
   <tr>
     <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></td>
@@ -22,13 +22,14 @@
 
 ---
 
-## 📂 Proyectos destacados
+## 📂 Featured Projects
 
-| Proyecto                      | Tech Stack                                     | Link                                          |
-|-------------------------------|------------------------------------------------|-----------------------------------------------|
-| Señas Conectadas              | Python, Tkinter, AssemblyAI, Mediapipe         | 🔗 [GitHub](https://github.com/KevinMora/senas) |
-| Juego en Java (NetBeans)      | Java Swing, MigLayout                          | 🔗 [GitHub](https://github.com/KevinMora/juego) |
-| Sistema de Registro de Laboratorio | Java, MySQL, JDBC                           | 🔗 [GitHub](https://github.com/KevinMora/lab-registro) |
+| Project                          | Tech Stack                                   | Link                                          |
+|----------------------------------|-----------------------------------------------|-----------------------------------------------|
+| Señas Conectadas                 | Python, Tkinter, AssemblyAI, Mediapipe        | 🔗 [GitHub](https://github.com/KevinMora/senas)      |
+| Java Game (NetBeans)             | Java Swing, MigLayout                         | 🔗 [GitHub](https://github.com/KevinMora/juego)     |
+| Lab Registration System          | Java, MySQL, JDBC                              | 🔗 [GitHub](https://github.com/KevinMora/lab-registro) |
+
 
 ---
 

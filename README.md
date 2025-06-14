@@ -1,12 +1,12 @@
 <!-- Banner or initial emoji -->
-<h1 align="center">Hello, I’m Kevin! 👋</h1>
+<h1 align="center">Hey, I’m Kevin! 👋</h1>
 
 ---
 
 ## 🚀 About Me
 - 🔭 Currently studying **Software Engineering**.
 - 🌱 Continuously learning **Machine Learning**, **Tkinter**, and **Signal Processing**.
-- 📫 You can reach me at: [kevin.mora@ucacue.edu.ec](mailto:kevin.mora@est.ucacue.edu.ec) and [morakevin269@gmail.com](morakevin269@gmail.com)
+- 📫 You can reach me at: [morakevin269@gmail.com](morakevin269@gmail.com)
 
 ---
 

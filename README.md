@@ -13,7 +13,7 @@
 - 🛠️ I design and maintain **MORA**, a suite of business apps: workshop management, parts distribution, and shared infrastructure.
 - 🧩 Working on a major architectural refactor of **CarMora**, splitting it into clean Operación / Catálogos / Configuración modules.
 - 📖 Studying **Software Engineering** at university.
-- 🐧 Daily driver: **Arch Linux** with **Hyprland** (Omarchy setup) — minimalist tiling WM aesthetic, dark themes, clean terminals.
+- 🐧 Daily driver: **MacOs** and **Arch Linux** with **Hyprland** (Omarchy setup) — minimalist tiling WM aesthetic, dark themes, clean terminals.
 - 🧠 Manage my notes and academic writing in **Obsidian**, with a LaTeX/pandoc pipeline for papers.
 - 📫 Reach me at: [morakevin269@gmail.com](mailto:morakevin269@gmail.com)
 

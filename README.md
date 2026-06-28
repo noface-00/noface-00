@@ -61,8 +61,6 @@
 
 ![Kevin's GitHub stats](https://github-readme-stats.vercel.app/api?username=noface-00&show_icons=true&theme=radical)
 
-> ⚠️ Verifica que `noface-00` sea tu username correcto de GitHub antes de publicar — usa el mismo en todas las badges/links de arriba.
-
 ---
 
 <p align="center">

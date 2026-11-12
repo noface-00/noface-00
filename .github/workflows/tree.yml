@@ -1,0 +1,47 @@
+name: Actualizar arbol de commits
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # cada 6 horas
+  workflow_dispatch:         # boton "Run workflow"
+  push:
+    branches: [main]
+    paths: ["tree/render.py", ".github/workflows/tree.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - run: pip install pillow numpy
+
+      - name: Generar arbol
+        working-directory: tree
+        env:
+          # PAT con scope read:user (y repo si quieres contar commits privados).
+          # Sin el secret GH_TOKEN usa el token del workflow (solo actividad publica).
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          ACCOUNTS: "noface-00"      # <- cuentas separadas por coma (max 5)
+          DAYS: "360"                # <- dias hacia atras (max 364); cada commit = 1 luz
+          MAX_LIGHTS: "400"          # <- tope de luces
+        run: python render.py --out /tmp/out/tree.gif
+
+      # El GIF pesa varios MB: se publica en una rama huerfana que se SOBRESCRIBE
+      # en cada corrida, asi el historial de main no crece.
+      - name: Publicar en la rama output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan output
+          git rm -rf --quiet .
+          cp /tmp/out/tree.gif .
+          git add tree.gif
+          git commit -q -m "chore: actualizar arbol de commits"
+          git push -f origin output

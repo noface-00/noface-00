@@ -36,7 +36,7 @@ FRAME_MS = 80
 TURNS = 1.5                                # vueltas totales durante el loop
 SX, SY, TILT = 385.0, 500.0, 62.0
 BASE = H - 95
-BG = (5, 8, 20)
+BG = (0, 0, 0)
 RAMP = ".,:;=+*o%#@"
 ACCOUNT_COLORS = [(255, 214, 102), (255, 92, 92), (92, 165, 255), (120, 255, 200), (220, 130, 255)]
 FONT_PATHS = [

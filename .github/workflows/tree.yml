@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # boton "Run workflow"
   push:
     branches: [main]
-    paths: ["tree/render.py", ".github/workflows/tree.yml"]
+    paths: ["tree/**", ".github/workflows/tree.yml"]
 
 permissions:
   contents: write
@@ -33,6 +33,13 @@ jobs:
           MAX_LIGHTS: "400"          # <- tope de luces
         run: python render.py --out /tmp/out/tree.gif
 
+      - name: Generar componentes (banner, terminal, MORA, stack, stats, footer)
+        working-directory: tree
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          ACCOUNTS: "noface-00"      # <- mismas cuentas que arriba
+        run: python components.py --out /tmp/out
+
       # El GIF pesa varios MB: se publica en una rama huerfana que se SOBRESCRIBE
       # en cada corrida, asi el historial de main no crece.
       - name: Publicar en la rama output
@@ -41,7 +48,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan output
           git rm -rf --quiet .
-          cp /tmp/out/tree.gif .
-          git add tree.gif
+          cp /tmp/out/tree.gif /tmp/out/*.svg .
+          git add tree.gif *.svg
           git commit -q -m "chore: actualizar arbol de commits"
           git push -f origin output
